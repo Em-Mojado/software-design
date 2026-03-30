@@ -1,6 +1,4 @@
-using System.Globalization;
-
-namespace lab1
+namespace Task4
 {
     public partial class Form1 : Form
     {
@@ -20,7 +18,6 @@ namespace lab1
             int[] numbers = { 3, 1, 5, 2, 4, };
             int[] sortedNumbers = ProceduralSort(numbers);
             listBoxResults.DataSource = sortedNumbers;
-
         }
     }
 }
