@@ -34,9 +34,9 @@
             // 
             // btnSort
             // 
-            btnSort.Location = new Point(143, 124);
+            btnSort.Location = new Point(128, 113);
             btnSort.Name = "btnSort";
-            btnSort.Size = new Size(75, 23);
+            btnSort.Size = new Size(120, 76);
             btnSort.TabIndex = 0;
             btnSort.Text = "Sort";
             btnSort.UseVisualStyleBackColor = true;
@@ -45,9 +45,9 @@
             // listBoxResults
             // 
             listBoxResults.FormattingEnabled = true;
-            listBoxResults.Location = new Point(443, 134);
+            listBoxResults.Location = new Point(297, 113);
             listBoxResults.Name = "listBoxResults";
-            listBoxResults.Size = new Size(120, 94);
+            listBoxResults.Size = new Size(392, 244);
             listBoxResults.TabIndex = 1;
             // 
             // Form1

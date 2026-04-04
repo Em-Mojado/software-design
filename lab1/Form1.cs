@@ -10,10 +10,8 @@ namespace lab1
         }
         public int[] ProceduralSort(int[] numbers)
         {
-
             Array.Sort(numbers);
             return numbers;
-
         }
 
         private void btnSort_Click(object sender, EventArgs e)
