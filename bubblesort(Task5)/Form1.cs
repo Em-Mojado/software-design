@@ -27,9 +27,11 @@ namespace bubblesort_Task5_
 
         private void btnSort_Click(object sender, EventArgs e)
         {
+
             int[] numbers = { 35, 343, 235,432, 44, };
             int[] sortedNumbers = BubbleSort(numbers);
             listBoxResults.DataSource = sortedNumbers;
+
         }
     }
 }
