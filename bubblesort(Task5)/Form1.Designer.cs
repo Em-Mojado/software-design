@@ -34,18 +34,18 @@
             // 
             // btnSort
             // 
-            btnSort.Location = new Point(128, 113);
+            btnSort.Location = new Point(90, 113);
             btnSort.Name = "btnSort";
-            btnSort.Size = new Size(120, 76);
+            btnSort.Size = new Size(196, 50);
             btnSort.TabIndex = 0;
-            btnSort.Text = "Sort";
+            btnSort.Text = "BubbleSort";
             btnSort.UseVisualStyleBackColor = true;
             btnSort.Click += btnSort_Click;
             // 
             // listBoxResults
             // 
             listBoxResults.FormattingEnabled = true;
-            listBoxResults.Location = new Point(297, 113);
+            listBoxResults.Location = new Point(318, 113);
             listBoxResults.Name = "listBoxResults";
             listBoxResults.Size = new Size(392, 244);
             listBoxResults.TabIndex = 1;
@@ -54,7 +54,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(800, 424);
             Controls.Add(listBoxResults);
             Controls.Add(btnSort);
             Name = "Form1";

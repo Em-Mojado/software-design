@@ -34,7 +34,7 @@
             // 
             // btnD
             // 
-            btnD.Location = new Point(121, 124);
+            btnD.Location = new Point(98, 124);
             btnD.Name = "btnD";
             btnD.Size = new Size(179, 45);
             btnD.TabIndex = 0;
@@ -45,7 +45,7 @@
             // listBoxResults
             // 
             listBoxResults.FormattingEnabled = true;
-            listBoxResults.Location = new Point(334, 124);
+            listBoxResults.Location = new Point(320, 124);
             listBoxResults.Name = "listBoxResults";
             listBoxResults.Size = new Size(382, 184);
             listBoxResults.TabIndex = 1;

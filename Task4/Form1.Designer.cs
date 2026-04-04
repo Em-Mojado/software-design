@@ -34,7 +34,7 @@
             // 
             // btnSort
             // 
-            btnSort.Location = new Point(145, 126);
+            btnSort.Location = new Point(134, 126);
             btnSort.Name = "btnSort";
             btnSort.Size = new Size(130, 51);
             btnSort.TabIndex = 0;
@@ -45,7 +45,7 @@
             // listBoxResults
             // 
             listBoxResults.FormattingEnabled = true;
-            listBoxResults.Location = new Point(294, 126);
+            listBoxResults.Location = new Point(305, 126);
             listBoxResults.Name = "listBoxResults";
             listBoxResults.Size = new Size(362, 199);
             listBoxResults.TabIndex = 1;
