@@ -12,6 +12,7 @@ namespace lab1
         {
             Array.Sort(numbers);
             return numbers;
+
         }
 
         private void btnSort_Click(object sender, EventArgs e)
