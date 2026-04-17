@@ -20,20 +20,42 @@
 			base.Dispose(disposing);
 		}
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
-		/// <summary>
-		///  Required method for Designer support - do not modify
-		///  the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
-			this.components = new System.ComponentModel.Container();
-			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(800, 450);
-			this.Text = "Form1";
-		}
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            btnShowInfo = new Button();
+            SuspendLayout();
+            // 
+            // btnShowInfo
+            // 
+            btnShowInfo.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnShowInfo.Location = new Point(251, 180);
+            btnShowInfo.Name = "btnShowInfo";
+            btnShowInfo.Size = new Size(299, 91);
+            btnShowInfo.TabIndex = 0;
+            btnShowInfo.Text = "Show Info";
+            btnShowInfo.UseVisualStyleBackColor = true;
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(800, 450);
+            Controls.Add(btnShowInfo);
+            Name = "Form1";
+            Text = "Form1";
+            Click += btnShowInfo_Click;
+            ResumeLayout(false);
+        }
 
-		#endregion
-	}
+        #endregion
+
+        private Button btnShowInfo;
+    }
 }
