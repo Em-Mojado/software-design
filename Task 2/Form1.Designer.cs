@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             btnShowInfo = new Button();
-            txtDataGridView = new ListBox();
+            txtList = new ListBox();
             SuspendLayout();
             // 
             // btnShowInfo
@@ -42,14 +42,14 @@
             btnShowInfo.UseVisualStyleBackColor = true;
             btnShowInfo.Click += btnShowInfo_Click;
             // 
-            // txtDataGridView
+            // txtList
             // 
-            txtDataGridView.FormattingEnabled = true;
-            txtDataGridView.ItemHeight = 15;
-            txtDataGridView.Location = new Point(77, 36);
-            txtDataGridView.Name = "txtDataGridView";
-            txtDataGridView.Size = new Size(647, 319);
-            txtDataGridView.TabIndex = 1;
+            txtList.FormattingEnabled = true;
+            txtList.ItemHeight = 15;
+            txtList.Location = new Point(77, 52);
+            txtList.Name = "txtList";
+            txtList.Size = new Size(647, 304);
+            txtList.TabIndex = 1;
             // 
             // Form1
             // 
@@ -57,7 +57,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
-            Controls.Add(txtDataGridView);
+            Controls.Add(txtList);
             Controls.Add(btnShowInfo);
             Name = "Form1";
             Text = "Form1";
@@ -67,6 +67,6 @@
         #endregion
 
         private Button btnShowInfo;
-        private ListBox txtDataGridView;
+        private ListBox txtList;
     }
 }
